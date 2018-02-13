@@ -1,0 +1,35 @@
+html, body {
+    /*cursor: url("https://www.equilibre3.be/sites/all/themes/equilibre3/images/eq3dot.png")*/
+    cursor: url("https://static.legacy.net/obituaries/images/obituary/obituaryportal/radio_off.png"),
+    none;
+}
+
+div#memoryBoard {
+    background: #ccc;
+    border: #999 0px solid;
+    width: 1560px;
+    height: 1040px;
+    margin: 0px auto;
+}
+
+div#memoryBoard > div {
+    background: url('../avatars/tile-bg.png') no-repeat;
+    background-size: 240px;
+    border: #000 0px solid;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    font-size: 80px;
+    /*cursor: pointer;*/
+    text-align: center;
+}
+div#memoryBoard .ficha {
+    font-family: Open Sans;
+    color: white;
+    font-size: 120px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 200px;
+}
